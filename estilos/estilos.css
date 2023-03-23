@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&family=Roboto:ital@0;1&display=swap');
+
+* {
+    margin: 0;
+    padding: 150;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: uppercase;
+    color: rgb(12, 12, 12);
+}
+
+.primerTitulo {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: black;
+}
+
+.nav {
+    color: white;
+    background-color: black
+}
+
+.subtitulo {
+    font-size: 25px;
+    text-align: center;
+    padding: 0px;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    margin: 10px;
+}
+
+
+a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.video {
+    text-align: right;
+    margin: 40px
+}
+
+footer {
+    margin-top: 200px;
+    padding: 100px;
+}
+
+.redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+
+
+img {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.padre {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #a6a6a6;
+    padding: 15px;
+    justify-content: space-around;
+}
+
+.icon {
+    width: 48px;
+    height: 48px;
+}
+
+footer {
+    padding: 50px;
+    background-color: white;
+}
+
+.redes {
+    background-color: white;
+}
+
+a:hover {
+    color: red;
+    transition: all 0.5s;
+}
+
+
+.hijo img {
+    width: 175px;
+    height: 175px;
+}
+
+.hijo{
+    display: flex;
+    flex-direction: column;
+}
+
+.parrafo{
+    letter-spacing: normal;
+    font-size: 15px;
+    text-align: center;
+    line-height: 50px;
+    text-align: center;
+}
+.parrafo-contacto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #a6a6a6;
+    padding: 30px;
+    justify-content: space-around;
+}
